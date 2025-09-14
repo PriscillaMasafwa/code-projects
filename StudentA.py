@@ -17,14 +17,15 @@ def adding_income(Monthly_Income=1, extra_income=1):
   return new_income
 
 
-print(adding_income(500, 600))
+print(adding_income())
 
 def adding_expenses(Total_expenses=1, extra_expenses=1):
   new_expenses= Total_expenses + extra_expenses
   return new_expenses
 
 
-print(adding_expenses(300, 200))
+print(adding_expenses())
+
 
 
 
