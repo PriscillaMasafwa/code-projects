@@ -1,5 +1,5 @@
 # Defining the variables 
-name = input("What is yout name? ")
+name = input("What is your name? ")
 Monthly_Income = int(input(f"Hello {name} i'm your finance tracker, enter your monthly income: "))
 print(f"You earn {Monthly_Income} ZMW every month")
 
@@ -25,6 +25,7 @@ def adding_expenses(Total_expenses=1, extra_expenses=1):
 
 
 print(adding_expenses())
+
 
 
 
