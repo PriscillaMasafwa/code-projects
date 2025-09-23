@@ -19,7 +19,7 @@ def adding_income(monthly_Income, extra_income):
 first_amount = int(input("Enter your monthly income earned:"))
 second_amount = int(input("Enter your extra income earned:"))
 
-print(adding_income(first_amount, second_amount))
+print("The total income is: ",adding_income(first_amount, second_amount))
 
 def adding_expenses(total_expenses, extra_expenses):
   new_expenses= total_expenses + extra_expenses
@@ -29,7 +29,8 @@ def adding_expenses(total_expenses, extra_expenses):
 first_value = int(input("Enter your total expenses spent:"))
 second_value = int(input("Enter your extra expenses spent:"))
 
-print(adding_expenses(first_value, second_value))
+print("The total expenses is: ", adding_expenses(first_value, second_value))
+
 
 
 
